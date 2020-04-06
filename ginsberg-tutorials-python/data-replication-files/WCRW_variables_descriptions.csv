@@ -1,0 +1,86 @@
+﻿Variable_Name ,Source ,Variable_Description 
+CAMPAIGN ,Various encyclopedic entries; scholarly works; subject and area experts ,Name of campaign. 
+LOCA TION ,Various encyclopedic entries; scholarly works; subject and area experts ,Geographic base of campaign (country). 
+LCCODE ,Correlates of War ,Location country code. 
+BYEAR ,Various encyclopedic entries; scholarly works; subject and area experts ,Year in which campaign begins. 
+EYEAR ,Various encyclopedic entries; scholarly works; subject and area experts ,"Year at which the campaign reaches its peak; i.e. the most members or watershed events. If data is unavailable for membership or events, this peak is considered to be the year prior to the outcome (i.e. if regime changed in 2002, the peak is 2001). "
+AMERICAS ,Author’s calculation ,Region dummy. 
+ASIA ,Author’s calculation ,Region dummy. 
+AFRICA ,Author’s calculation ,Region dummy. 
+EUROPE ,Author’s calculation ,Region dummy. 
+FSU ,Author’s calculation ,Region dummy. 
+MIDDLE EAST ,Author’s calculation ,Region dummy. 
+TARGET ,Various encyclopedic entries; scholarly works; subject and area experts ,Target of the campaign. 
+TCCODE ,Correlates of War ,Target country code. 
+OUTCOME ,Various encyclopedic entries; scholarly works; subject and area experts ,Ordinal measure with result code. Success=5; Limited Success=4; Failure=3. 
+SUCCESS ,Various encyclopedic entries; scholarly works; subject and area experts ,"Dichotomous variable identifying whether the campaign achieved 100% of its stated goals within a year of the peak of activities. In most cases, outcome was achieved within a year of the campaign’s peak. Some campaigns’ goals were achieved years after the “peak” of the struggle in terms of membership, but the success was a direct result of campaign activities. When such a direct link can be demonstrated, these campaigns are coded as successful."
+LIMITED,Various encyclopedic entries; scholarly works; subject and area experts ,"Dichotomous variable identifying whether the campaign achieved some of its stated goals within a year of the peak of activities. When a regime makes concessions to the campaign or reforms short of complete campaign success, such reforms are counted as limited success. "
+FAILURE,Various encyclopedic entries; scholarly works; subject and area experts ,Dichotomous variable identifying whether the campaign achieved none of its stated goals; includes campaigns that have been suppressed. 
+ONGOING ,Various encyclopedic entries; scholarly works; subject and area experts ,Dichotomous variable identifying whether the campaign is ongoing and has not yet achieved its goals. Only when campaigns are ongoing and have achieved no stated objectives/outcomes. 
+NONVIOL ,Various encyclopedic entries; scholarly works; subject and area experts ,Dichotomous variable identifying that a campaign was primarily nonviolent during the observation. 
+VIOL ,Gleditsch 2004; Lyall and Wilson 2008; Sepp 2005 ,Dichotomous variable identifying that a campaign was primarily violent during the observation. 
+REGCHANGE ,Various encyclopedic entries; scholarly works; subject and area experts ,"Dichotomous variable identifying purpose of campaign as domestic regime change, excluding expulsion of foreign occupiers. "
+FSELFDET ,Various encyclopedic entries; scholarly works; subject and area experts ,Dichotomous variable identifying purpose of campaign as a self-determination or independence from a foreign occupier or colonial power. 
+SECESSION ,Various encyclopedic entries; scholarly works; subject and area experts ,"Dichotomous variable identifying purpose of campaign as self-determination or territorial secession/separatism from an existing state in a territory internationally recognized as part of the target state. Sometimes these campaigns claim objectives of expelling foreign occupations. This campaign type is distinct from anti-occupation campaigns, however, because the contested territory is internationally recognized as sovereign to the target state. "
+OTHER ,Various encyclopedic entries; scholarly works; subject and area experts ,"Dichotomous variable identifying purpose of campaign as distinct from previous three objectives (i.e. purpose is NOT to expel a foreign occupation, change a domestic regime, or territorial separation). However, these are major campaigns with “difficult” goals, which exclude labor rights, civil rights, and other types of campaigns. "
+LDURATION ,Author’s calculation ,"Length of campaign in days, logged. "
+PEAKMEMBERSHIP ,Various encyclopedic entries; scholarly works; subject and area experts ,Number of members in campaign at highest point (peak event). 
+LMEMBERS ,Author’s calculation ,Log of peakmembership. 
+MEMPC ,Author’s calculation; Penn World Tables 6.2 ,Membership per capita (lmembers/lnpop). 
+MEMDUM ,Author’s calculation ,Dichotomous variable indicating whether peakmembership is missing. 
+REGVIOL ,Various encyclopedic entries; scholarly works; subject and area experts ,Dichotomous variable identifying whether the regime used violence to crack down on campaign.
+DEFECT ,Various encyclopedic entries; scholarly works; subject and area experts ,"Dichotomous variables identifying whether the target’s security forces defected during the conflict. Does not include routine individual defections, but rather large-scale, systematic breakdowns on the execution of orders from the target regime. "
+CW ,Author’s calculation ,Whether the campaign occurred during the Cold War (end year occurs between 1949 and 1991). 
+POSTCW ,Author’s calculation ,End year occurs after 1991. 
+VIOLSIM ,Various encyclopedic entries; scholarly works; subject and area experts ,"Dichotomous variable identifying whether a different violent campaign was active simultaneous to the major campaign. Can include an independent terrorist group, violent insurrection, or other violent “spoiler” at any point during the course of the campaign. "
+LPOLITY ,POLITY IV ,POLITY IV score of campaign location (democracy – autocracy) 1 year before campaign ends. 
+LGOVCAP ,Correlates of War ,"Government capacity measure for location of campaign; logged annual composite index of the state’s share of the world’s total population, GDP per capita, GDP per unit of energy, military manpower, and military expenditures 1 year before campaign ends. "
+TPOLITY ,POLITY IV ,POLITY IV score of campaign target (democracy – autocracy) 1 year before campaign ends. 
+TGOVCAP ,Correlates of War ,"Government capacity measure for target of campaign; logged annual composite index of the state’s share of the world’s total population, GDP per capita, GDP per unit of energy, military manpower, and military expenditures 1 year before campaign ends."
+POLITYT5 ,POLITY IV ,POLITY IV score of campaign location (democracy – autocracy) five years after campaign ends. 
+POLITYT1 ,POLITY IV ,POLITY IV score of campaign location (democracy – autocracy) one year after campaign ends. 
+POLITYT10 ,POLITY IV ,POLITY IV score of campaign location (democracy – autocracy) ten years after campaign ends. 
+POLITYCHANGET10 ,POLITY IV ,Change in location POLITY IV score ten years after campaign ends. 
+POLITYCHANGET1 ,POLITY IV ,Change in location POLITY IV score one year after campaign ends. 
+POLITYCHANGET5 ,POLITY IV ,Change in location POLITY IV score five years after campaign ends. 
+POLITYCHANGET0 ,POLITY IV ,Change in location POLITY IV score between the year before the campaign ends to the year the campaign ends. 
+EXTFOR ,Gleditsch 2004 ,"Dichotomous variable indicating whether regime was engaged in an interstate conflict (of over 1,000 battle deaths) at the time of the observation. "
+REGAID ,Various encyclopedic entries; scholarly works; subject and area experts ,Dichotomous variable indicating whether target received overt military aid from another state to fight the campaign. 
+STATESUP ,Record 2006; various encyclopedic entries; scholarly works; subject and area experts ,Dichotomous variable indicating whether campaign received overt military or economic aid from an outside another state to fight against the target. 
+SDIRECT ,"Huffbauer, Elliott, and Schott 2007 ",Dichotomous variable indicating whether the international sanctions targeted the regime for its behavior vis-à-vis the resistance campaign. 
+DELTATPOLITY ,POLITY IV ,Change in target polity from 4 years before campaign begins to 1 year before campaign ends. 
+DELTATGDP ,Penn World Tables 6.2 ,Change in target GDP per capita from 4 years before campaign begins to 1 year before campaign ends. 
+DELTATGOVCAP ,Correlates of War ,Change in target govcap from 4 years before campaign begins to 1 year before campaign ends. 
+T1 ,Author’s calculation ,Time dummy: 1900-1909. 
+T2 ,Author’s calculation ,Time dummy: 1910-1919. 
+T3 ,Author’s calculation ,Time dummy: 1920-1929. 
+T4 ,Author’s calculation ,Time dummy: 1930-1939. 
+T5 ,Author’s calculation ,Time dummy: 1940-1949. 
+T6 ,Author’s calculation ,Time dummy: 1950-1959. 
+T7 ,Author’s calculation ,Time dummy: 1960-1969. 
+T8 ,Author’s calculation ,Time dummy: 1970-1979. 
+T9 ,Author’s calculation ,Time dummy: 1980-1989. 
+T10 ,Author’s calculation ,Time dummy: 1990-1999. 
+T11 ,Author’s calculation ,Time dummy: 2000-2006. 
+LGDPPC ,Penn World Tables 6.2 ,"Location GDP per capita 1 year before campaign ends, in 2000 US dollars. "
+RGDPPC ,Penn World Tables 6.2 ,"Real GDP per capita the year of the campaign ends, in 2000 US dollars. "
+GROWTHRGDPPC ,Penn World Tables 6.2 ,"Growth of real GDP per capita the year of the campaign ends, in 2000 US dollars. "
+LUPOP ,Penn World Tables 6.2 ,"Urban population, logged. "
+RECUR5 ,Gledistch 2004 ,Dichotomous variable indicating whether a civil war recurred within 5 years after campaign ends. 
+RECUR10 ,Gledistch 2004 ,Dichotomous variable indicating whether a civil war recurred within 10 years after campaign ends. 
+RECUR1 ,Gledistch 2004 ,Dichotomous variable indicating whether a civil war recurred within 1 year after campaign ends. 
+AUTHDUM ,POLITY IV ,Dichotomous variable indicating whether a country was authoritarian (i.e. POLITY score of less than 7) 1 year before campaign ends.
+DEMDUM ,POLITY IV ,Dichotomous variable indicating whether a country was democratic (i.e. POLITY score of more than 6) 5 years after campaign ends. 
+LNPOP ,Penn World Tables 6.2 ,"Location’s logged population the year the campaign ends, logged "
+IXNNVMEM ,Penn World Tables 6.2 ,Interaction term: nonviolent resistance * lmembers. 
+IXNNVPC ,Penn World Tables 6.2 ,Interaction term: nonviolent resistance * mempc. 
+LOCLCAP1 ,Author’s calculation; Correlates of War ,Dichotomous variable indicating whether location’s govcap is in the 1st quartile 1 year before campaign begins. 
+LOCLCAP2 ,Author’s calculation; Correlates of War ,Dichotomous variable indicating whether location’s govcap is in the 2nd quartile 1 year before campaign begins. 
+LOCLCAP3 ,Author’s calculation; Correlates of War ,Dichotomous variable indicating whether location’s govcap is in the 3rd quartile 1 year before campaign begins. 
+LOCLCAP4 ,Author’s calculation; Correlates of War ,Dichotomous variable indicating whether location’s govcap is in the 4th quartile 1 year before campaign begins. 
+LPOLITY1 ,POLITY IV ,Target’s POLITY score 1 year before campaign begins. 
+LOCLPOLITY1 ,POLITY IV ,Location’s POLITY score 1 year before campaign begins. 
+LMTNEST ,Fearon and Laitin 2003 ,"Estimated percentage of mountainous terrain in location, logged. "
+EF ,Fearon and Laitin 2003 ,Location’s ethnic fractionalization 1 year before campaign begins. 
+LCINC1 ,Correlates of War ,Target’s govcap 1 year before campaign begins. 
+WARS ,Fearon and Laitin 2003 ,Number of internal wars in progress in location 1 year before campaign begins. 
