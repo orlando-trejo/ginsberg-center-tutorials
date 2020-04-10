@@ -1,6 +1,6 @@
-﻿Variable_Name ,Source ,Variable_Description 
+﻿Variable_Name,Source,Variable_Description
 CAMPAIGN ,Various encyclopedic entries; scholarly works; subject and area experts ,Name of campaign. 
-LOCA TION ,Various encyclopedic entries; scholarly works; subject and area experts ,Geographic base of campaign (country). 
+LOCATION ,Various encyclopedic entries; scholarly works; subject and area experts ,Geographic base of campaign (country). 
 LCCODE ,Correlates of War ,Location country code. 
 BYEAR ,Various encyclopedic entries; scholarly works; subject and area experts ,Year in which campaign begins. 
 EYEAR ,Various encyclopedic entries; scholarly works; subject and area experts ,"Year at which the campaign reaches its peak; i.e. the most members or watershed events. If data is unavailable for membership or events, this peak is considered to be the year prior to the outcome (i.e. if regime changed in 2002, the peak is 2001). "
@@ -9,7 +9,7 @@ ASIA ,Author’s calculation ,Region dummy.
 AFRICA ,Author’s calculation ,Region dummy. 
 EUROPE ,Author’s calculation ,Region dummy. 
 FSU ,Author’s calculation ,Region dummy. 
-MIDDLE EAST ,Author’s calculation ,Region dummy. 
+MIDDLEEAST ,Author’s calculation ,Region dummy. 
 TARGET ,Various encyclopedic entries; scholarly works; subject and area experts ,Target of the campaign. 
 TCCODE ,Correlates of War ,Target country code. 
 OUTCOME ,Various encyclopedic entries; scholarly works; subject and area experts ,Ordinal measure with result code. Success=5; Limited Success=4; Failure=3. 
